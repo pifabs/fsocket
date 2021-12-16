@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include fsocket *.css
+recursive-include fsocket *.csv
+recursive-include fsocket *.html
+recursive-include fsocket *.ico
+recursive-include fsocket *.js
+recursive-include fsocket *.json
+recursive-include fsocket *.md
+recursive-include fsocket *.png
+recursive-include fsocket *.py
+recursive-include fsocket *.svg
+recursive-include fsocket *.txt
+recursive-exclude fsocket *.pyc

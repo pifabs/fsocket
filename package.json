@@ -1,0 +1,17 @@
+{
+  "name": "fsocket",
+  "version": "0.0.1",
+  "description": "Extend frappe\\'s websocket server using socket.io and redis",
+  "main": "socketio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "palanskiheji",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "redis": "^2.8.0",
+    "socket.io": "^2.4.1"
+  }
+}
